@@ -1,0 +1,27 @@
+﻿<Window x:Class="Bai_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bai_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblSo" Content="Số:" 
+               HorizontalAlignment="Left" 
+               Margin="80,91,0,0" 
+               VerticalAlignment="Top" FontSize="16" FontFamily="Arial"/>
+        <TextBox x:Name="txtSo" HorizontalAlignment="Left" 
+                 Margin="171,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="30" FontSize="16" FontFamily="Arial"/>
+        <Label x:Name="lblKq" Content="Kết Quả:" 
+            HorizontalAlignment="Left" 
+            Margin="80,150,0,0" 
+            VerticalAlignment="Top" FontSize="16" FontFamily="Arial"/>
+        <TextBox x:Name="txtKq" HorizontalAlignment="Left" Margin="171,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="30" FontSize="16" FontFamily="Arial"/>
+        <Button x:Name="btn_thoat" Content="Thoát" HorizontalAlignment="Left" Margin="270,270,0,0" VerticalAlignment="Top" Height="30" FontSize="16" Click="btn_thoat_Click"/>
+        <Button x:Name="btn_binh_phuong" Content="Bình Phương" HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" Height="30" FontSize="16" Click="btn_binh_phuong_Click"/>
+        <Button x:Name="btn_lap_phuong" Content="Lập Phương" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" Height="30" FontSize="16" Click="btn_lap_phuong_Click"/>
+        <Button x:Name="btn_Giai_thua" Content="Giai Thừa" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Height="30" FontSize="16" Click="btn_Giai_thua_Click"/>
+
+    </Grid>
+</Window>
